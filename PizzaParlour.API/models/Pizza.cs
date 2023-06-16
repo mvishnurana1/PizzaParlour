@@ -5,6 +5,7 @@
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public List<Ingredients> Ingredients { get; set; } = new List<Ingredients>();
+        public List<Ingredient> Ingredients { get; set; } = new List<Ingredient>();
+        public double PizzaPrice { get; set; }
     }
 }
